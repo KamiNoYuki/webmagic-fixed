@@ -32,7 +32,7 @@
   
   <path id="webmagic-core.runtime.production.module.classpath">
     <pathelement location="${webmagic-core.output.dir}"/>
-    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.2.4.classpath"/>
+    <path refid="library.maven:_cz.msebera.android:httpclient:4.5.8.classpath"/>
     <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.2.4.classpath"/>
     <path refid="library.maven:_commons-logging:commons-logging:1.1.1.classpath"/>
     <path refid="library.maven:_commons-codec:commons-codec:1.6.classpath"/>
@@ -48,7 +48,7 @@
   <path id="webmagic-core.module.classpath">
     <path refid="${module.jdk.classpath.webmagic-core}"/>
     <pathelement location="${webmagic-core.output.dir}"/>
-    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.2.4.classpath"/>
+    <path refid="library.maven:_cz.msebera.android:httpclient:4.5.8.classpath"/>
     <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.2.4.classpath"/>
     <path refid="library.maven:_commons-logging:commons-logging:1.1.1.classpath"/>
     <path refid="library.maven:_commons-codec:commons-codec:1.6.classpath"/>
@@ -65,7 +65,7 @@
   <path id="webmagic-core.runtime.module.classpath">
     <pathelement location="${webmagic-core.testoutput.dir}"/>
     <pathelement location="${webmagic-core.output.dir}"/>
-    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.2.4.classpath"/>
+    <path refid="library.maven:_cz.msebera.android:httpclient:4.5.8.classpath"/>
     <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.2.4.classpath"/>
     <path refid="library.maven:_commons-logging:commons-logging:1.1.1.classpath"/>
     <path refid="library.maven:_commons-codec:commons-codec:1.6.classpath"/>
